@@ -1,2 +1,136 @@
-.testing {
-  width: 71.42857%; }
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-image: url(../images/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 830px; }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-width: 2px;
+  border-color: #3d2514; }
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; }
+
+.navbar-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 31px;
+  letter-spacing: 3px; }
+
+.navbar {
+  letter-spacing: 5px; }
+
+.tab1 {
+  font-size: 21px;
+  font-family: "Bebas Neue";
+  color: #3d2514;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-right: 50px; }
+
+.tab2 {
+  font-size: 21px;
+  font-family: "Bebas Neue";
+  color: #3d2514;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-right: 50px; }
+
+.tab3 {
+  font-size: 21px;
+  font-family: "Bebas Neue";
+  color: #3d2514;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-right: 50px; }
+
+.tab4 {
+  font-size: 21px;
+  font-family: "Bebas Neue";
+  color: #3d2514;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-right: 50px; }
+
+.main-header .phone {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16.667px;
+  font-family: "Montserrat";
+  color: #3d2514;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 40px; }
+
+.flex-box {
+  display: flex; }
+
+.price-area {
+  background: #bf2222;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 9px;
+  border: #fff dashed; }
+
+.price-main p {
+  font-size: 50px;
+  margin-top: 26px;
+  color: #fff; }
+
+.price-main small {
+  font-size: 25px; }
+
+.price-main span {
+  letter-spacing: 5px;
+  font-family: "Bebas Neue"; }
+
+.header-box-1 {
+  flex: 1 1 50%; }
+
+.header-box-2 {
+  flex: 1 1 50%;
+  position: relative; }
+
+.header-box-1 p {
+  border: 2px solid #3d2514;
+  border: dashed;
+  width: fit-content;
+  padding: 7px;
+  font-family: "Bebas Neue";
+  letter-spacing: 3px; }
+
+.header-box-1 h1 {
+  font-size: 100px;
+  font-family: "AlfaSlabOne";
+  color: #3d2514;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 5px 5px 5px #fee8bc;
+  padding-top: 134px; }
+
+.header-box-1 h2 {
+  font-size: 50px;
+  font-family: "AlfaSlabOne";
+  color: #3d2514;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 5px 5px 5px #fee8bc; }
