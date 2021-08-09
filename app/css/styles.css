@@ -6,7 +6,7 @@ header {
   background-image: url(../images/header-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 830px; }
+  padding-bottom: 120px; }
 
 .container {
   max-width: 1440px;
@@ -29,7 +29,9 @@ header {
   letter-spacing: 3px; }
 
 .navbar {
-  letter-spacing: 5px; }
+  letter-spacing: 2px;
+  list-style-type: none;
+  display: flex; }
 
 .tab1 {
   font-size: 21px;
@@ -67,6 +69,17 @@ header {
   line-height: 1.2;
   margin-right: 50px; }
 
+a:hover {
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  transition: 0.5s linear;
+  background-color: #fff; }
+
+a:active {
+  color: green;
+  background-color: yellowgreen; }
+
 .main-header .phone {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -77,7 +90,7 @@ header {
   text-align: right;
   padding-right: 40px; }
 
-.flex-box {
+.header-banner {
   display: flex; }
 
 .price-area {
@@ -104,7 +117,8 @@ header {
   font-family: "Bebas Neue"; }
 
 .header-box-1 {
-  flex: 1 1 50%; }
+  flex: 1 1 50%;
+  padding-left: 20px; }
 
 .header-box-2 {
   flex: 1 1 50%;
@@ -116,7 +130,8 @@ header {
   width: fit-content;
   padding: 7px;
   font-family: "Bebas Neue";
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  margin-top: 100px; }
 
 .header-box-1 h1 {
   font-size: 100px;
@@ -125,7 +140,7 @@ header {
   text-transform: uppercase;
   line-height: 1;
   text-shadow: 5px 5px 5px #fee8bc;
-  padding-top: 134px; }
+  margin-top: 0px; }
 
 .header-box-1 h2 {
   font-size: 50px;
@@ -134,3 +149,6 @@ header {
   text-transform: uppercase;
   line-height: 1;
   text-shadow: 5px 5px 5px #fee8bc; }
+
+.header-box-2 img {
+  padding-top: 40px; }
